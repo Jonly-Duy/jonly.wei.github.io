@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonly.Wei - Trang Cá Nhân</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Jonly.Wei</div>
+        <ul class="nav-links">
+            <li><a href="#home">Trang chủ</a></li>
+            <li><a href="#about">Giới thiệu</a></li>
+            <li><a href="#skills">Kỹ năng</a></li>
+            <li><a href="#projects">Dự án</a></li>
+            <li><a href="#contact">Liên hệ</a></li>
+        </ul>
+        <div class="menu-toggle" id="menuToggle">☰</div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <img src="images/avatar.jpg" alt="Avatar" class="avatar">
+            <h1>Xin chào, tôi là <span>Jonly.Wei</span></h1>
+            <p>Lập trình viên Web | Yêu thích sáng tạo & công nghệ</p>
+            <div class="hero-buttons">
+                <a href="#contact" class="btn btn-primary">Liên hệ ngay</a>
+                <a href="#projects" class="btn btn-outline">Xem dự án</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+        <h2 class="section-title">Giới thiệu</h2>
+        <div class="about-content">
+            <p>
+                Tôi là một lập trình viên đam mê công nghệ, chuyên về phát triển web với
+                HTML, CSS, JavaScript và các framework hiện đại. Tôi luôn tìm tòi, học hỏi
+                để nâng cao kỹ năng và tạo ra những sản phẩm hữu ích.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section bg-light">
+        <h2 class="section-title">Kỹ năng</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3>HTML5</h3>
+                <div class="progress"><div class="progress-bar" data-width="95%"></div></div>
+            </div>
+            <div class="skill-card">
+                <h3>CSS3</h3>
+                <div class="progress"><div class="progress-bar" data-width="90%"></div></div>
+            </div>
+            <div class="skill-card">
+                <h3>JavaScript</h3>
+                <div class="progress"><div class="progress-bar" data-width="85%"></div></div>
+            </div>
+            <div class="skill-card">
+                <h3>React</h3>
+                <div class="progress"><div class="progress-bar" data-width="75%"></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section">
+        <h2 class="section-title">Dự án</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-img" style="background:#4f46e5;"></div>
+                <h3>Website Bán Hàng</h3>
+                <p>Trang thương mại điện tử với giỏ hàng và thanh toán.</p>
+            </div>
+            <div class="project-card">
+                <div class="project-img" style="background:#06b6d4;"></div>
+                <h3>Ứng dụng Todo</h3>
+                <p>Quản lý công việc hàng ngày với localStorage.</p>
+            </div>
+            <div class="project-card">
+                <div class="project-img" style="background:#ec4899;"></div>
+                <h3>Blog Cá Nhân</h3>
+                <p>Blog chia sẻ kiến thức lập trình với Markdown.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section bg-light">
+        <h2 class="section-title">Liên hệ</h2>
+        <form class="contact-form" id="contactForm">
+            <input type="text" placeholder="Họ và tên" required>
+            <input type="email" placeholder="Email" required>
+            <textarea rows="5" placeholder="Nội dung tin nhắn..." required></textarea>
+            <button type="submit" class="btn btn-primary">Gửi tin nhắn</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Jonly.Wei. Made with ❤️</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
